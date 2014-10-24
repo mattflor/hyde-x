@@ -21,7 +21,11 @@ pre {
   font-size: 4rem;
   line-height: 1.05;
 }
-
+/* Slightly smaller lead */
+.lead {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
 /* Powered by section (use smaller font)*/
 .sidebar-powered {
   font-size: 0.7rem;
