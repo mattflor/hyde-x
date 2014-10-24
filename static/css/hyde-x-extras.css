@@ -17,6 +17,7 @@ pre {
 
 /* Very large header */
 .sidebar-about h1 {
+  font-family: "Vollkorn", serif;
   font-size: 4rem;
   line-height: 1.05;
 }
