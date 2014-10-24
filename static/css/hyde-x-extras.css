@@ -1,0 +1,28 @@
+/*
+ * Tweaks and overrides to hyde-x.css
+ */
+
+/* Use the Vollkorn font for normal text and Ubuntu Mono for code. */
+html {
+  font-family: "Vollkorn", Helvetica, Arial, sans-serif;
+}
+code,
+pre {
+  font-family: "Ubuntu Mono", "Courier New", monospace;
+}
+/* Gist via GitHub Pages */
+.gist .gist-file {
+  font-family: "Ubuntu Mono", "Courier New", monospace !important;
+}
+
+/* Very large header */
+.sidebar-about h1 {
+  /* font-family: "Vollkorn", serif; */
+  font-size: 4rem;
+  line-height: 1.05;
+}
+
+/* Powered by section (use smaller font)*/
+.sidebar-powered {
+  font-size: 0.6rem;
+}
