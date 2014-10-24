@@ -10,6 +10,7 @@ code,
 pre {
   font-family: "Ubuntu Mono", "Courier New", monospace;
 }
+
 /* Gist via GitHub Pages */
 .gist .gist-file {
   font-family: "Ubuntu Mono", "Courier New", monospace !important;
@@ -21,12 +22,23 @@ pre {
   font-size: 4rem;
   line-height: 1.05;
 }
+
 /* Slightly smaller lead */
 .lead {
   font-size: 1.2rem;
   font-weight: 300;
 }
+
 /* Powered by section (use smaller font)*/
 .sidebar-powered {
   font-size: 0.7rem;
+}
+
+/* MathJax support */
+code.has-jax {
+  font: inherit;
+  font-size: 100%;
+  background: inherit;
+  border: inherit;
+  color: #515151;
 }
