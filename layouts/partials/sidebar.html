@@ -13,15 +13,21 @@
       {{end}}
     </ul>
 
-    <ul class="sidebar-nav">
+    <!-- <ul class="sidebar-nav">
       {{ with .Site.Params.github }}<li class="sidebar-nav-item"><a href="{{ . }}">GitHub</a></li>{{ end }}
       {{ with .Site.Params.linkedin }}<li class="sidebar-nav-item"><a href="{{ . }}">LinkedIn</a></li>{{ end }}
       {{ with .Site.Params.googleplus }}<li class="sidebar-nav-item"><a href="{{ . }}">Google+</a></li>{{ end }}
       {{ with .Site.Params.facebook }}<li class="sidebar-nav-item"><a href="{{ . }}">Facebook</a></li>{{ end }}
       {{ with .Site.Params.twitter }}<li class="sidebar-nav-item"><a href="{{ . }}">Twitter</a></li>{{ end }}
-    </ul>
+    </ul> -->
+
+    {{ with .Site.Params.github }}<a href="{{ . }}"><i class="fa fa-github-square"></i></a>&nbsp;&nbsp;{{ end }}
+    {{ with .Site.Params.twitter }}<a href="{{ . }}"><i class="fa fa-twitter-square"></i></a>&nbsp;&nbsp;{{ end }}
+    {{ with .Site.Params.facebook }}<a href="{{ . }}"><i class="fa fa-facebook-square"></i></a>&nbsp;&nbsp;{{ end }}
+    {{ with .Site.Params.gplus }}<a href="{{ . }}"><i class="fa fa-google-plus"></i></a>{{ end }}
+    {{ with .Site.Params.linkedin }}<a href="{{ . }}"><i class="fa fa-linkedin-square"></i></a>&nbsp;&nbsp;{{ end }}
 
     <!-- <p>Copyright &copy; {{ .Now.Format "2006" }} <a href="{{ .Site.BaseUrl }}/license">License</a><br/>  -->
-    <p class="sidebar-powered">Powered by <a href="http://hugo.spf13.com">Hugo</a> and slightly tweaked <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+    <p class="sidebar-powered">Powered by <a href="http://hugo.spf13.com">Hugo</a> and a slightly tweaked <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
   </div>
 </div>
